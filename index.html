@@ -175,3 +175,36 @@
         </article>
       </section>
 
+      <!-- CONTACTO -->
+      <section id="contacto" aria-labelledby="contacto-title">
+        <h2 id="contacto-title">Contacto</h2>
+        <p>
+          ¿Quieres hablar de una oportunidad, un proyecto o simplemente saludar?
+          Escríbeme por correo o encuéntrame en las redes de la barra lateral.
+        </p>
+        <form onsubmit="return false;" class="contact-form">
+          <div class="form-row">
+            <label for="name">Nombre
+              <input type="text" id="name" name="name" placeholder="Tu nombre" required>
+            </label>
+            <label for="email">Correo
+              <input type="email" id="email" name="email" placeholder="tu@correo.com" required>
+            </label>
+          </div>
+          <label for="message">Mensaje
+            <textarea id="message" name="message" placeholder="Escribe tu mensaje..." rows="4" required></textarea>
+          </label>
+          <button type="submit">Enviar mensaje</button>
+        </form>
+      </section>
+
+      <footer class="page-footer">
+        <p> Nicolás Millán Rodríguez ·</p>
+      </footer>
+
+    </main>
+  </div>
+
+</body>
+</html>
+
